@@ -11,6 +11,13 @@ post-provisioning: >-
   Once you power up your device you'll need to allow some time for it to
   download the application, this typically takes 10-12 minutes but it can take
   more depending on your internet connection and what device you are using.
+  
+  For x86/AMD64 devices like Intel NUC:
+  - After the device flash, it'll shut off 
+  - Remove the balenaOS installation media
+  - Power on your device
+  
+  For creating a virtual device, follow [this](https://www.balena.io/blog/no-hardware-use-virtualbox/) guide
 
   **Usage**
 
