@@ -15,9 +15,10 @@ services:
   
   homeassistant:
     image: "ghcr.io/home-assistant/home-assistant:stable"
+    ports:
+      - "80:8123"
     volumes:
        - 'config:/config'
        - 'config:/config/etc/localtime:ro'
     restart: always
     privileged: true
-    network_mode: host

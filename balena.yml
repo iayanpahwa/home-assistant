@@ -21,7 +21,7 @@ post-provisioning: >-
 
   **Usage**
 
-  After the download is completed you can access Home-Assistant running on Port <8123> of you device IP address.
+  After the download is completed you can access Home-Assistant running on Port <80> of you device IP address.
 
 assets:
   repository:
